@@ -19,13 +19,12 @@ print(len( dias2 ))
 
 #funcion input
 
-nombre_fichero = input("introduce el nombre del fichero:")
-print("nombre del fichero -> ", nombre_fichero)
-print(nombre_fichero[0:nombre_fichero.index(".")]+"#####"+nombre_fichero[nombre_fichero.index(".")+1:])
-
 #metodo INDEX de la clase string, posicion =  variable_string.index(cadena_a_buscar)
 #utilizando SLICING y el parametro sep de la funcion mostrar texto
 #miimagen####png cuando el usuario introduzca miimagen.png
 # loqueseademicasa.gif --> loqueseademicasa#####gif
 # cv.docx --> cv#####docx
 
+nombre_fichero = input("introduce el nombre del fichero:")
+print("nombre del fichero -> ", nombre_fichero)
+print(nombre_fichero[0:nombre_fichero.index(".")]+"#####"+nombre_fichero[nombre_fichero.index(".")+1:])
