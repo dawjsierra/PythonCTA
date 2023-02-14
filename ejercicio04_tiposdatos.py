@@ -56,3 +56,20 @@ print(nombre_fichero[nombre_fichero.index("."):]) #.jpg
 print(nombre_fichero[nombre_fichero.index(".")+1:]) #jpg
 
 
+
+
+# OTROS TIPOS NUMERICOS
+decimal = 183 #183
+# octal = Oo127 #87
+hexadecimal = 0x1A #26
+print(bin(8))
+
+#numeros decimales
+print(type(10.5))
+print(5.)
+print(5e2) # cinco x 10 elevado a 2
+print(10e-3) #0.01
+print(15e-3) #0.015 (la e indica el numero de decimales) 12/1000
+print(12e2) #1200 equivalente a 12*10^2
+
+#ESTO ULTIMO ES IMPORTANTE PARA EL EXAMEN DE CERTIFICACION
