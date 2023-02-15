@@ -19,3 +19,11 @@ print(type(bs))
 # determina si una instancia (variable, objeto) es de una clase concreta
 
 print(isinstance(c, str))
+
+def sumar(a, b):
+    return a+b
+
+suma = sumar (3,8)
+restar = sumar (3,8)
+
+print(resultado)
