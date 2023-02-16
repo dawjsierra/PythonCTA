@@ -1,0 +1,22 @@
+
+<!-- EJEMPLO DE USO PYSCRIPT -->
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>PRUEBA PYTHON</title>
+    </head>
+    <body>
+        <h2>Mi primer programa en Python</h2>
+        <p>Este es el primer program que creamos PyScript</p>
+        <py-script>
+            from datetime import datetime
+            now = datetime.now()
+            for x in range(10):
+                display(now.year)
+        </py-script>
+    </body>
+</html>
