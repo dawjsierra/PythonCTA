@@ -7,10 +7,6 @@ if(edad>=18):
     pass
 
 
-
-
-
-
 #IF
 mayoria_edad=18
 edad=17
@@ -142,11 +138,6 @@ match edad:
     case 19:
         print("19")
     
-
-
-
-
-
 
 #try
 #with
