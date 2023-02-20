@@ -14,7 +14,7 @@ print(lista_solvencia)
 # remove nombres.txt fotografias.png
 # remove nombres.txt fotografias.png autores.xls
 
-
+""" 
 comando = input("introduce un comando [show, remove]:")
 
 match comando.split():
@@ -25,4 +25,4 @@ match comando.split():
         for fichero in ficheros:
             print(fichero, sep=",", end="")
 
-
+ """
