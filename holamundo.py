@@ -1,22 +1,8 @@
 from gtts import gTTS
 import os
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mytext = 'SANCHEZ QUE TE VOTE CHAPOTE, ROJO DE MIERDA'
-language = 'es'
+mytext = 'TWENTY-ELEVEN'
+language = 'en'
 myobj = gTTS(text=mytext, lang=language, slow=False)
-myobj.save("perrosanxe.mp3")
-os.system("mpg321 perrosanxe.mp3")
+myobj.save("2011.mp3")
+os.system("2011.mp3")
